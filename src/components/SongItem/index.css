@@ -1,0 +1,45 @@
+.song-container {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.song-detail {
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+.song-name-genre {
+  flex-direction: column;
+}
+
+.image {
+  width: 150px;
+  height: 90px;
+  margin-right: 20px;
+}
+
+.name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.genre {
+  color: #3b82f6;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.duration {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 50px;
+}

@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  min-height: 100vh;
+  background-color: #152850;
+}
+
+.singer-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  height: 450px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 100px;
+}
+
+.singer-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.singer {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.playlist-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.sub-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.search-input {
+  height: 30px;
+  width: 18%;
+  padding-left: 15px;
+  color: #cbd5e1;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.cover-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  min-height: 50%;
+}
+
+.music-list {
+  padding: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.empty-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-songs {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+}
